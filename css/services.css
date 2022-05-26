@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Alegreya");
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 8vh;
+}
+
+
+
+nav ul {
+    line-height: 30px;
+    color: #fff;
+    font-family: "Poppins", sans serif;
+    transition: 2s;
+    text-align: right;
+}
+
+
+
+nav ul li {
+    display: flex;
+    padding: 10px 15px;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px;
+    font-weight: bold;
+}
+.packages{
+    background-image: url(../images/part.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.booking{
+    background-image: url(../images/party-people-1644798_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:20px;
+    padding: 50px;
+}
+
+#text{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+}
+
+.one{
+    font-family: "Alegreya";
+    color: white;
+}
+
+.three{
+    color: sienna;
+}
+
+#tet{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+}
+
+
+
+/* about */
+#about {
+    padding: 100px 0px;
+    color: snow;
+    height: 110vh;
+	background-image: url("../images/banner_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+p{
+    font-family: "Poppins";
+
+}
+
+#about .service-item {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-family: "Alegreya";
+    font-size: 35px;
+}
+
+#about .service-item .icon {
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	text-align: center;
+	line-height: 104px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	background-color: #f7c552;
+}
+
+#about .service-item h4 {
+	margin-bottom: 30px;
+	margin-top: 45px;
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+
+#about .line-dec{
+    width: 100%;
+	height: 1px;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+#about .service-item .line-dec {
+	width: 100%;
+	height: 1px;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+#about .service-item p {
+	color: #fff;
+	margin-top: 30px;
+}
+
+#about .service-item .btn btn-secondary {
+   border: none;  
+   padding: 8px;
+   background-color: grey;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;  
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+}
+
+.scroll-link{
+    color: white;
+}
+
+#two{
+    color: white;
+}
+
+.text-primary {
+  color: #286090;
+
+}
+a.text-primary:hover {
+  color: #286090;
+}
+
+
+.features {    
+    width: 100%;
+    margin: 2em auto;
+    padding: 2em;
+    position: relative;
+}
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+/* Services */
+.Services{
+    padding-top: 50px;
+    color: chocolate;
+}
+#Services {
+    height: 80vh;
+    background-image: url("../images/pxfuel.com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+
+#Services h4 {
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: arial;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.sect{
+    margin-bottom: 50px;
+}
+    
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+
+/* footer */
+footer {
+	margin-top: -6px;
+	background-color: #373a3c;
+	padding: 50px 0px;
+}
+
+footer .logo em {
+	font-style: normal;
+	font-size: 28px;
+	color: #f7c552;
+}
+
+footer .logo-ft {
+	display: inline-block;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #fff!important;
+	font-size: 21px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: none;
+	letter-spacing: 1px;
+}
+
+footer .logo p {
+	font-weight: 300;
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: -10px;
+	letter-spacing: 0.5px;
+}
+
+footer .logo span {
+	font-weight: 600;
+	color: #f7c552;
+}
+
+footer .logo a {
+	color: #FFF;
+}
+
+footer .logo a:hover {
+	color: #9F0;
+}
+
+footer .location h4 {
+	margin-top: 0px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+
+footer .location ul li {
+	font-size: 13px;
+	color: #fff;
+	display: inline-block;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer .location ul li:first-child {
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px solid rgba(250, 250, 250, 0.1);
+}
+
+footer .contact-info h4 {
+	margin-top: 0px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+
+footer .contact-info ul li {
+	font-size: 13px;
+	color: #fff;
+	display: inline-block;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 300;
+	margin-bottom: -15px;
+}
+
+footer .contact-info ul li em {
+	font-style: normal;
+	font-weight: 500;
+}
+
+footer .connect-us h4 {
+	margin-top: 0px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 35px;
+}
+
+footer .connect-us ul li {
+	display: inline-block;
+	margin-right: 2px;
+}
+
+footer .connect-us ul li a {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #373a3c;
+	font-size: 15px;
+	transition: all 0.3s;
+}
+footer .connect-us ul li a:hover {
+	background-color: #f7c552;
+}
