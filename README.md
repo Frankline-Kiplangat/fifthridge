@@ -1,7 +1,7 @@
 ## FIFTH RIDGE
 
 ## Description
- This is a web application that eneables users to plan parties. Whatever kind of party you are planning; a birthday, bridal or baby shower,new years eve party, business meetings or some other celebration, our Website  makes it easy to manage every detail. It saves time!
+ This is a web application that enables users to plan parties. Whatever kind of party you are planning; a birthday, bridal or baby shower,new years eve party, business meetings or some other celebration, our Website  makes it easy to manage every detail. It saves time!
  ## Authors
 * Elly Kiplangat 
 * Maratah Njoroge
